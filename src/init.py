@@ -1,7 +1,6 @@
 from flask import Flask
-import flask_sqlalchemy
 
-from . models import db
+from .models import db
 from . import config
 
 
