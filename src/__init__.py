@@ -1,7 +1,7 @@
 from flask import Flask
 
 from .models import db
-from src import config
+from . import config
 
 
 def create_app():
